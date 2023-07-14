@@ -15,13 +15,6 @@
 .animate-fadeIn {
   animation: fadeIn 2s ease-in forwards;
 }
-#exp{
-  background-image: url("../images/Monitor-bro.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  overflow: visible;
-}
 
 #port{
   background-image: url("../images/background/endless-constellation1.svg");

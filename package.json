@@ -1,10 +1,13 @@
 {
+  "homepage":"http://VicOguan.github.io/portfolio",
   "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "tailwind -i ./input.css -o ./css/style.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "watch": "tailwind -i ./input.css -o ./css/style.css --watch"
   },
   "keywords": [],
